@@ -1,3 +1,10 @@
 spring:
   application:
     name: HELLO-CONFIG-CLIENT
+  datasource:
+    url: jdbc:mysql://localhost:3306/app
+    username: app_user
+    password: app_user_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    open-in-view: false
